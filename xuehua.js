@@ -5,7 +5,7 @@
 变量
 export xuehuahd='XXXXXXX'
 多号@或换行
-corn 0 0 * * * xuehua.js
+corn:1 9,16 * * * xuehua.js
 ============================================
 圈X
  重写
@@ -19,7 +19,7 @@ https://superx.crb.cn/Api/b1/GetUserInfo\?sessionKey=\S+ url script-request-url 
 //0 */1 * * * http://nm6.xyz:20080/ningmeng/ningmeng/raw/branch/main/xuehua.js, tag=雪花勇闯天涯, enabled=true
 
 
-const $ = new Env('雪花勇闯天涯');
+const $ = new Env('雪花勇闯天涯superX 小程序');
 const {log} = console;
 
 const Notify = 1; //0为关闭通知，1为打开通知,默认为1
