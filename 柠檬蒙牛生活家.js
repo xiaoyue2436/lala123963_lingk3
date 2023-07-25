@@ -1,6 +1,6 @@
 /*
 微信打开: #小程序://蒙牛营养生活家/FzGssVYt9
-
+cron:9 6,16 * * *
 点会员-签到 搜tasklist
 抓域名member-api.mengniu.cn
 请求头X-Token
@@ -8,7 +8,7 @@
 变量
 export mnflaghd='X-Token&unionId'
 */
-const $ = new Env('猛男');
+const $ = new Env('蒙牛营养生活家');
 const axios = require('axios');
 let request = require("request");
 request = request.defaults({
