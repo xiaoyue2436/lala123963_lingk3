@@ -2,7 +2,8 @@ var CryptoJS = require('crypto-js')
 /*
 岚图汽车签到
 重写：https://clientapi.dsmp.voyah.com.cn/
-
+cron:19 1,15 * * *
+const $ = new Env('岚图汽车签到')
 变量：ltCookie 
 变量：ltdevicesn 
 
