@@ -5,7 +5,7 @@
 注意⚠️uuid是一串数字字母组成的，倒数13位是时间戳，不要填进变量！！只要前面部分就可以了。
 比如uuid=FmdMpKAeiknJs6O1670565573439,填进变量的只需要FmdMpKAeiknJs6O
 每天运行一次就好
-cron: 13 13 13 * * *
+cron:13 6,13 * * *
 */
 const $ = new Env("燕京啤酒小程序");
 let envSplitor = ['@', '\n']
