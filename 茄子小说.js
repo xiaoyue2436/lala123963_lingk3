@@ -7,7 +7,7 @@
  * 项目抓包：抓api-gw.wenxueapp.com下的authorization&qm-params填入变量
  * 项目变量：lekebo_qzxs_Cookie
  * 项目定时：每30分钟运行一次
- * 定时规则: cron:14 */4 * * *
+ * 定时规则: cron:14 4,8,12,16,20,0 * * *
  * 
  * 邀 请 码: 
  * 
