@@ -4,9 +4,9 @@
 变量：export suda='Bearer XXXXXXX'
 功能：签到
 收益：每天5-35分递增1500左右兑换
-cron: 7 28 7 * * *
+cron:2 7,20 * * *
 */
- const $ = new Env('苏打校园');
+ const $ = new Env('苏打智能小程序');
  const notify = $.isNode() ? require('./sendNotify') : '';
  var Notify = 0; //0为关闭通知，1为打开通知,默认为1
  const debug = 0; //0为关闭调试，1为打开调试,默认为0
