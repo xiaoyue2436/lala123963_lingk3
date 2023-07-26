@@ -5,7 +5,7 @@
 变量：export SYZX = 'XXXXXX'
 cron:54 8,20 * * * 
 
-const $ = new Env("顺义在线小程序");
+const $ = new Env("顺义在线");
 */
 
 
