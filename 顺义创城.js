@@ -3,9 +3,9 @@
 抓包：请求头里的X-Applet-Token
 请求头：admin.shunyi.wenming.city
 变量：export SY_token = 'XXXXXX'
-
+cron:2 8,12 * * *
 */
-const $ = new Env('顺义创城');
+const $ = new Env('顺义创城小程序');
 const axios = require('axios');
 let request = require("request");
 request = request.defaults({
